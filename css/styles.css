@@ -151,42 +151,20 @@ footer {
 .canine {
     text-align: center;
 }
-
-.canine img {
+/* Fotos de personal y perros */
+.cards img {
     width: 160px;
     height: 160px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
-.canine p {
-    margin: 5px 0;
-}
-/* Imágenes del personal */
-.staff-img {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    margin-bottom: 10px;
-}
-
-/* Unidad Canina */
-.canine-unit {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 25px;
-    flex-wrap: wrap;
-}
-
-.canine {
+/* Para personal y perros */
+.staff, .canine {
     text-align: center;
 }
-
 .canine img {
     width: 160px;
     height: 160px;
