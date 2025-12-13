@@ -140,40 +140,30 @@ footer {
     padding: 25px;
     font-size: 0.9rem;
 }
-/* Fotos de personal y perros */
-.cards img {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    margin-top: 15px;
-}
-
-/* Contenedor redondo para empleados */
+/* Contenedor redondo para empleados (más grande) */
 .staff .img-container {
-    width: 120px;           /* Tamaño del círculo */
-    height: 120px;
-    border-radius: 50%;     /* Hace el contenedor redondo */
-    overflow: hidden;       /* Recorta la imagen */
-    margin: 0 auto;         /* Centra el círculo */
+    width: 180px;          /* Nuevo tamaño más grande */
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;   /* Centrado y un poco de espacio debajo */
 }
 
 /* Imagen dentro del contenedor */
 .staff .img-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;      /* Centra y recorta la imagen */
+    object-fit: cover;
     display: block;
 }
 
-/* Lo mismo para la unidad canina */
+/* Contenedor redondo para la unidad canina */
 .canine .img-container {
-    width: 120px;
+    width: 120px;          /* Mantiene tamaño actual */
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto 15px;   /* Centrado con espacio debajo */
 }
 
 .canine .img-container img {
@@ -181,5 +171,13 @@ footer {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* Separar el bloque de unidad canina hacia abajo */
+.canine-unit {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;     /* Mayor espacio respecto a la sección de empleados */
 }
 
