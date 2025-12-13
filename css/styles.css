@@ -156,3 +156,15 @@ footer {
     object-fit: cover;
     display: block;
 }
+/* Texto de descripción de la unidad canina */
+#unidadcanina .treatment-detail {
+    margin-bottom: 20px; /* Ajusta el espacio entre el texto y las tarjetas */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Mantener separación dentro de cada tarjeta */
+.card .img-container {
+    margin-top: 10px; /* Espacio opcional si quieres más separación dentro de la tarjeta */
+    margin-bottom: 10px;
+}
