@@ -33,7 +33,7 @@ header {
 
 /* Contenedor del texto */
 header div {
-    padding-top: 50px; /* Ajusta para mover el texto más abajo */
+    padding-top: 100px; /* Ajusta para mover el texto más abajo */
     max-width: 900px;  /* Limita ancho para consistencia */
 }
 
