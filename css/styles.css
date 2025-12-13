@@ -11,30 +11,33 @@ body {
     line-height: 1.6;
 }
 
-/* ===== HEADER / HERO ===== */
+/* ===== HEADER / HERO UNIFICADO Y FIJO ===== */
 header {
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-    url('../img/encabezado.jpg'); /* Ajusta la ruta según tu proyecto */
-    
+    url('../img/encabezado.jpg');
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     height: 70vh;
+
     display: flex;
-    align-items: flex-start;
     justify-content: center;
+    align-items: center;   /* 🔥 CLAVE: centra igual en todas */
+
     text-align: center;
     color: #fff;
-
     font-family: 'Inter', sans-serif;
 }
 
-header div {
-    padding-top: 200px; /* Ajusta este valor para mover el texto más abajo */
+/* Contenedor del texto */
+header > div {
     max-width: 900px;
+    transform: translateY(40px); /* 🔥 Baja el texto de forma consistente */
 }
 
+/* Texto */
 header h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -48,7 +51,6 @@ header p {
     opacity: 0.9;
     line-height: 1.5;
 }
-
 
 /* ===== NAV ===== */
 nav {
