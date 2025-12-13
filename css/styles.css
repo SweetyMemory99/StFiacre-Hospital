@@ -140,3 +140,27 @@ footer {
     padding: 25px;
     font-size: 0.9rem;
 }
+.canine-unit {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.canine {
+    text-align: center;
+}
+
+.canine img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+}
+
+.canine p {
+    margin: 5px 0;
+}
