@@ -13,11 +13,15 @@ body {
 
 /* ===== HEADER / HERO ===== */
 header {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url('../img/encabezado.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+    /* Gradiente ligero para texto legible, sin oscurecer demasiado */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('../img/encabezado.jpg'); /* Ruta correcta desde css/styles.css */
+    
+    background-size: cover;        /* La imagen cubre todo el header */
+    background-position: center;   /* Centrada */
+    background-repeat: no-repeat;  /* Evita repetición */
+    
+    height: 70vh;                  /* Alto del header */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +29,7 @@ header {
     color: #fff;
 }
 
+/* Títulos y texto dentro del header */
 header h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -35,6 +40,7 @@ header p {
     margin-top: 15px;
     opacity: 0.9;
 }
+
 
 /* ===== NAV ===== */
 nav {
