@@ -11,38 +11,35 @@ body {
     line-height: 1.6;
 }
 
-/* ===== HEADER / HERO UNIFICADO ===== */
+/* ===== HEADER / HERO ===== */
 header {
-    /* Gradiente ligero + imagen de fondo */
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-    url('../img/encabezado.jpg'); /* Ajusta la ruta si tu CSS está en css/ */
-
-    background-size: cover;        /* La imagen cubre todo el header */
-    background-position: center;   /* Centrada */
-    background-repeat: no-repeat;  /* Evita repetición */
+    url('../img/encabezado.jpg'); /* Ajusta la ruta según tu proyecto */
     
-    height: 70vh;                  /* Alto uniforme */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 70vh;
     display: flex;
-    align-items: flex-start;       /* Comienza desde arriba */
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
     color: #fff;
 
-    font-family: 'Inter', sans-serif; /* Fuente unificada */
+    font-family: 'Inter', sans-serif;
 }
 
-/* Contenedor del texto */
 header div {
-    padding-top: 100px; /* Ajusta para mover el texto más abajo */
-    max-width: 900px;  /* Limita ancho para consistencia */
+    padding-top: 100px; /* Ajusta este valor para mover el texto más abajo */
+    max-width: 900px;
 }
 
-/* Títulos y párrafos del header */
 header h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 15px;
-    line-height: 1.2; /* Igual en todas las páginas */
+    line-height: 1.2;
 }
 
 header p {
