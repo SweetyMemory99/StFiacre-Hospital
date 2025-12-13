@@ -31,7 +31,7 @@ header {
 }
 
 header div {
-    padding-top: 100px; /* Ajusta este valor para mover el texto más abajo */
+    padding-top: 125px; /* Ajusta este valor para mover el texto más abajo */
     max-width: 900px;
 }
 
