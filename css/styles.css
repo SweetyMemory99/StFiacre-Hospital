@@ -140,17 +140,6 @@ footer {
     padding: 25px;
     font-size: 0.9rem;
 }
-.canine-unit {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 25px;
-    flex-wrap: wrap;
-}
-
-.canine {
-    text-align: center;
-}
 /* Fotos de personal y perros */
 .cards img {
     width: 160px;
@@ -165,15 +154,18 @@ footer {
 .staff, .canine {
     text-align: center;
 }
-.canine img {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    margin-bottom: 10px;
+
+/* Contenedor para los perros (mantener flex) */
+.canine-unit {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
+/* Texto debajo de las imágenes */
+.cards .staff p,
 .canine p {
     margin: 5px 0;
 }
