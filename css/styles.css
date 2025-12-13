@@ -150,23 +150,36 @@ footer {
     margin-top: 15px;
 }
 
-/* Contenedor cuadrado para fotos de empleados */
-.staff img {
-    width: 120px;          /* Ajusta tamaño */
-    height: 120px;         /* Igual que el ancho */
-    border-radius: 50%;    /* Hace redonda */
-    object-fit: cover;     /* Recorta y centra la imagen */
-    display: block;
-    margin: 0 auto;
+/* Contenedor redondo para empleados */
+.staff .img-container {
+    width: 120px;           /* Tamaño del círculo */
+    height: 120px;
+    border-radius: 50%;     /* Hace el contenedor redondo */
+    overflow: hidden;       /* Recorta la imagen */
+    margin: 0 auto;         /* Centra el círculo */
 }
 
-/* Unidad canina */
-.canine img {
+/* Imagen dentro del contenedor */
+.staff .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Centra y recorta la imagen */
+    display: block;
+}
+
+/* Lo mismo para la unidad canina */
+.canine .img-container {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.canine .img-container img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
 }
 
