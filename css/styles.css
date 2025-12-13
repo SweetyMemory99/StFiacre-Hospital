@@ -140,13 +140,13 @@ footer {
     padding: 25px;
     font-size: 0.9rem;
 }
-/* Contenedor redondo para empleados (más grande) */
+/* Contenedor de empleados */
 .staff .img-container {
-    width: 180px;          /* Nuevo tamaño más grande */
-    height: 180px;
+    width: 160px;           /* Nuevo tamaño más grande */
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto 15px;   /* Centrado y un poco de espacio debajo */
+    margin: 0 auto;
 }
 
 /* Imagen dentro del contenedor */
@@ -156,28 +156,3 @@ footer {
     object-fit: cover;
     display: block;
 }
-
-/* Contenedor redondo para la unidad canina */
-.canine .img-container {
-    width: 120px;          /* Mantiene tamaño actual */
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 15px;   /* Centrado con espacio debajo */
-}
-
-.canine .img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-/* Separar el bloque de unidad canina hacia abajo */
-.canine-unit {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;     /* Mayor espacio respecto a la sección de empleados */
-}
-
